@@ -13,6 +13,9 @@ app.get("/", (req, res) => res.send("Application is active"));
 
 app.listen(port, () => console.log(`Application is running on port ${port}`));
 
+/* Postman Collection link
+ https://www.getpostman.com/collections/9ea21de8405b02d2fb4b
+ */
 //Add single or mutiple users
 app.post("/users", async (req, res) => {
   try {
